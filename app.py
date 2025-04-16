@@ -217,7 +217,7 @@ def ChFH1HW_FX(u, tau, gamma, Rxv, Rxrd, Rxrf, Rrdrf, Rvrd, Rvrf, lambdd, etad, 
                                  etad ** 2.0 * Bd(t, tau) ** 2.0 + etaf ** 2.0 * Bf(t, tau) ** 2.0)
 
     # Integration in the function A(u,tau)
-    int1 = np.zeros([len(u), 1], dtype=np.complex_)
+    int1 = np.zeros([len(u), 1], dtype=np.complex128)
     N = 500
     z = np.linspace(0.0 + 1e-10, tau - 1e-10, N)
 
