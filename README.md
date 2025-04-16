@@ -1,5 +1,9 @@
 # FX Option Pricing using Heston-Hull-White Model
 
+
+https://github.com/user-attachments/assets/7aa1eea2-5c17-404b-adbc-a6acabd12ef5
+
+
 This project simulates FX option pricing under stochastic volatility (Heston model) and stochastic domestic/foreign interest rates (Hull-White model). Both Monte Carlo simulation and characteristic function (CF) methods are implemented with detailed mathematical explanations.
 
 ## ✨ Project Highlights
